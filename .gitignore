@@ -1,0 +1,15 @@
+/.vscode
+/checkpoints
+/data
+/results
+/results_19_03_22
+/results_completed
+/results_optimizinvlosssum
+/results_smooth_input
+/results_testing
+/results_v1
+/docs
+*.pyc
+*.xlsx
+/notebooks/catboost_info/
+/src/__pycache__/

@@ -1,0 +1,10 @@
+name: torch
+channels:
+  - defaults
+dependencies:
+  - torchaudio
+  - torchvision
+  - pytorch
+  - cudatoolkit=11.3
+  - ipykernel
+prefix: E:\Archivos de programas\anaconda3\envs\torch

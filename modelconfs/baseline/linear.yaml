@@ -1,0 +1,2 @@
+name: 'LinearRegression'
+module: 'sklearn.linear_model'

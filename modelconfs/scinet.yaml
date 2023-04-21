@@ -1,0 +1,9 @@
+emb_in:
+  - 1
+
+kernel_size:
+  - 3
+
+data_path:
+  - ETTh1.csv
+  - ETTh2.csv
