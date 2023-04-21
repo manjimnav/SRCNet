@@ -221,7 +221,7 @@ class Experimenter:
            
             pred = outputs.detach().cpu().numpy()
             #pred = train_data.scaler.transform(pred, groups=batch_y_mark[:, -1, -1] if len(batch_y_mark.shape)>2 else batch_y_mark[:, -1],target_index= train_data.target_index) if self.args.scale_results else pred
-            pred = pred*std + mean
+            pred = pred#*std + mean
 
             if pred.shape[-1] < 2:
                 pred = pred.squeeze(axis=2)
@@ -232,7 +232,7 @@ class Experimenter:
                 
             preds.append(pred)
             #true = train_data.scaler.transform(true, groups=batch_y_mark[:, -1, -1] if len(batch_y_mark.shape)>2 else batch_y_mark[:, -1],target_index= train_data.target_index) if self.args.scale_results else true
-            true = true*std + mean
+            true = true#*std + mean
             trues.append(true)
 
             times.append(batch_y_mark)

@@ -3,27 +3,3 @@ emb_in:
 
 emb_out:
   - 1
-  
-d_model:
-  - 8
-  - 16
-  - 32
-  - 64
-  - 128
-
-seq_len:
-  - 3
-  - 4
-  - 5
-  - 6
-
-
-pred_len:
-  - 3
-
-dropout:
-  - 0
-
-data_path:
-  - ETTh1.csv
-  - ETTh2.csv
