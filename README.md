@@ -1,3 +1,4 @@
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/a-new-deep-learning-architecture/time-series-forecasting-on-etth1-24-2)](https://paperswithcode.com/sota/time-series-forecasting-on-etth1-24-2?p=a-new-deep-learning-architecture) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/a-new-deep-learning-architecture/time-series-forecasting-on-etth2-24-2)](https://paperswithcode.com/sota/time-series-forecasting-on-etth2-24-2?p=a-new-deep-learning-architecture)
 # A New Deep Learning Architecture withInductive Bias Balance for Transformer Oil Temperature Forecasting
 
 This paper contains all the source code corresponding to the paper: [paper](https://journalofbigdata.springeropen.com/counter/pdf/10.1186/s40537-023-00745-0.pdf).
